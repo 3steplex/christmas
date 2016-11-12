@@ -28,12 +28,13 @@
 	</div>
 
 	<!-- Scripts -->
-	<script src="scripts/jquery.js"></script>
-	<script src="scripts/jquery.parallax.js"></script>
+	
+	<script src="scripts/parallax.js"></script>
 	<script>
 
-	// Yep, that's it!
-	$('#scene').parallax();
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
 
 	</script>
 
