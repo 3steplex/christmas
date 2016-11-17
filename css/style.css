@@ -151,8 +151,8 @@ body {
   opacity: 1.0;
 }
 
-#lu {
-  background: radial-gradient(ellipse at center, #fce18a , #fffeea ;
+#luz {
+  background: radial-gradient(ellipse at center, #fce18a , #fffeea) ;
   min-width: 100%;
   min-height: 100%;
   x-index: 2;
@@ -160,7 +160,7 @@ body {
   background-position: right;
   opacity: 0.15;
 }
-#paralla {
+#parallax {
   background: #fffff);
   
 }
