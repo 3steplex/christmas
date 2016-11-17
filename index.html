@@ -1,40 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
+  <meta charset="UTF-8">
+  <title>Mouse Parallax Test</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
 
-	<meta charset="utf-8">
-
-	<title>Christmas Tree</title>
-
-	<!-- Behavioral Meta Data -->
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
-
+  
 </head>
+
 <body>
+  
+<div id="parallax">
+  <div class="layer">
+    <div id="porta"></div>
+  </div>
+ <div data-depth="-0.03" class="layer">
+    <div id="garagem"></div>
+  </div>
+  <div data-depth="0.01" class="layer">
+    <div id="luz"></div>
+  </div>
+  <div data-depth="-0.01" class="layer">
+    <div id="pinheiro"></div>
+  </div>
+  <div class="layer">
+    <div id="nebula"></div>
+    </div>
+  <div data-depth="0.01" class="layer">
+    <div id="escadas"></div>
+  </div>
+  <div data-depth="0.005" class="layer">
+    <div id="efeites"></div>
+  </div>
+  <div data-depth="0.01" class="layer">
+    <div id="efeites1"></div>
+  </div>
+  </div>
+  <div id="arvoren">
+  <div data-depth="0.00" class="layer">
+    <div  id="arvore"></div>
+    <div data-depth="0.02" class="layer">
+    <div  id="arvore1"></div>
+    <div data-depth="0.01" class="layer">
+    <div  id="arvore2"></div>
+    <div data-depth="0.02" class="layer">
+    <div  id="arvore3"></div>
+    <div data-depth="0.01" class="layer">
+    <div  id="arvore4"></div>
+  </div>
+  
+    <div data-depth="0." class="layer">
+    <div class="some-space">
+      
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+<script src='http://matthew.wagerfield.com/parallax/deploy/jquery.parallax.js'></script>
 
-	<div id="container" class="container">
-		<ul id="scene" class="scene">
-			<li class="layer" data-depth="1.00"><img src="img/b-1.png"></li>
-			<li data-depth="0.20"><img src="img/b.png"></li>
-		
-			
-		</ul>
-	</div>
-
-	<!-- Scripts -->
-	
-	<script src="scripts/parallax.js"></script>
-	<script>
-
-	// Pretty simple huh?
-	var scene = document.getElementById('scene');
-	var parallax = new Parallax(scene);
-
-	</script>
+    <script src="js/index.js"></script>
 
 </body>
 </html>

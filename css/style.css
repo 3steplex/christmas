@@ -1,0 +1,245 @@
+body {
+  background-color: #151517;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#nebula {
+  background: url('https://raw.githubusercontent.com/3steplex/christmas/master/img/b.png') no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.0;
+}
+
+#escadas {
+  background: url('https://raw.githubusercontent.com/3steplex/christmas/master/img/b2.png') no-repeat;
+  
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.;
+}
+
+#garagem {
+  background: url('https://raw.githubusercontent.com/3steplex/christmas/master/img/b-1.png') no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 4;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.0;
+}
+
+#porta {
+  background: url('https://raw.githubusercontent.com/3steplex/christmas/master/img/b-2.png') no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  y-index: 5;
+  background-size: cover;
+  background-position: top;
+  opacity: 1.0;
+}
+
+#pinheiro {
+  background: url('https://raw.githubusercontent.com/3steplex/christmas/master/img/b-3.png') no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  x-index: 2;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.0;
+}
+
+#efeites {
+  background: url('https://raw.githubusercontent.com/3steplex/christmas/master/img/b1.png') no-repeat;
+  
+  min-width: 100%;
+  min-height: 100%;
+  x-index: 2;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.0;
+}
+
+#efeites1 {
+  background: url(' https://raw.githubusercontent.com/3steplex/christmas/master/img/b3.png') no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  x-index: 2;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.0;
+}
+
+#arvore {
+  background: url(' https://raw.githubusercontent.com/3steplex/christmas/master/img/0.png') no-repeat ;
+  min-width: 100%;
+  min-height: 100%;
+  x-index: 2;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.0;
+
+}
+
+#arvore1 {
+  background: url(' https://raw.githubusercontent.com/3steplex/christmas/master/img/1.png') no-repeat ;
+  min-width: 100%;
+  min-height: 100%;
+  x-index: 2;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.0;
+
+}
+
+#arvore2 {
+  background: url(' https://raw.githubusercontent.com/3steplex/christmas/master/img/2.png') no-repeat ;
+  min-width: 100%;
+  min-height: 100%;
+  x-index: 2;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.0;
+
+}
+
+#arvore3 {
+  background: url(' https://raw.githubusercontent.com/3steplex/christmas/master/img/3.png') no-repeat ;
+  min-width: 100%;
+  min-height: 100%;
+  x-index: 2;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.0;
+
+}
+
+#arvore4 {
+  background: url(' https://raw.githubusercontent.com/3steplex/christmas/master/img/4.png') no-repeat ;
+  min-width: 100%;
+  min-height: 100%;
+  x-index: 2;
+  background-size: cover;
+  background-position: center;
+  opacity: 1.0;
+
+}
+
+
+
+#arvo {
+  background: url(' https://raw.githubusercontent.com/3steplex/christmas/master/img/0.png') no-repeat;
+  left: 600px;
+  top: 10px;
+  background-size: 80px 60px;
+  background-position: absolute;
+  opacity: 1.0;
+}
+
+#luz {
+  background: radial-gradient(ellipse at center, #fce18a , #fffeea ;
+  min-width: 100%;
+  min-height: 100%;
+  x-index: 2;
+  background-size: cover;
+  background-position: right;
+  opacity: 0.15;
+}
+#parallax {
+  background: #fffff);
+  
+}
+
+#arvoren {
+  background: linear-gradient(to right, rgba(0,0,0,0), rgba(132,12,244,0.4));
+  
+}
+
+#parallaxi {
+  background:radial-gradient(ellipse at center,#ecdef9,#150028);
+  min-width: 100%;
+  min-height: 100%;
+  x-index: 2;
+  background-size: cover;
+  float: Right;
+  
+  opacity: 0.40;
+  
+}
+
+
+
+#particles-js, #parallax, #arvoren, .layer, .some-space {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+#particles-js {
+  opacity: 1;
+}
+
+#particles-js2 {
+  opacity: 0.4;
+}
+
+#particles-js3 {
+  opacity: 0.3;
+}
+
+#logo {
+  -webkit-box-shadow: 0 0 7px 1px #FFFFFF;
+box-shadow: 0 0 7px 1px #FFFFFF;
+}
+
+#logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+
+.some-spac {
+  -webkit-animation: rotate 18s 0.5s infinite linear reverse;
+          animation: rotate 18s 0.5s infinite linear reverse;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+            transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+            transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+            transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+            transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  }
+}
