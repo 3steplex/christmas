@@ -13,7 +13,7 @@ body {
 }
 
 #nebula {
-  background: url('christmas/img/b.png') no-repeat;
+  background: url('/christmas/img/b.png') no-repeat;
   min-width: 100%;
   min-height: 100%;
   width: 100%;
@@ -24,7 +24,7 @@ body {
 }
 
 #escadas {
-  background: url('christmas/img/b2.png') no-repeat;
+  background: url('/christmas/img/b2.png') no-repeat;
   
   min-width: 100%;
   min-height: 100%;
@@ -35,7 +35,7 @@ body {
 }
 
 #garagem {
-  background: url('christmas/img/b-1.png') no-repeat;
+  background: url('/christmas/img/b-1.png') no-repeat;
   min-width: 100%;
   min-height: 100%;
   z-index: 4;
