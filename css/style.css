@@ -13,7 +13,7 @@ body {
 }
 
 #nebula {
-  background: url('//christmas/img/b.png') no-repeat;
+  background: url('https://github.com/3steplex/christmas/img/b.png') no-repeat;
   min-width: 100%;
   min-height: 100%;
   width: 100%;
@@ -24,7 +24,7 @@ body {
 }
 
 #escadas {
-  background: url('//christmas/img/b2.png') no-repeat;
+  background: url('https://github.com/3steplex/christmas/img/b2.png') no-repeat;
   
   min-width: 100%;
   min-height: 100%;
@@ -35,7 +35,7 @@ body {
 }
 
 #garagem {
-  background: url('//christmas/img/b-1.png') no-repeat;
+  background: url('https://github.com/3steplex/christmas/img/b-1.png') no-repeat;
   min-width: 100%;
   min-height: 100%;
   z-index: 4;
@@ -45,7 +45,7 @@ body {
 }
 
 #porta {
-  background: url('//christmas/img/b-2.png') no-repeat;
+  background: url('https://github.com/3steplex/christmas/img/b-2.png') no-repeat;
   min-width: 100%;
   min-height: 100%;
   y-index: 5;
@@ -55,7 +55,7 @@ body {
 }
 
 #pinheiro {
-  background: url('//christmas/img/b-3.png') no-repeat;
+  background: url('https://github.com/3steplex/christmas/img/b-3.png') no-repeat;
   min-width: 100%;
   min-height: 100%;
   x-index: 2;
@@ -65,7 +65,7 @@ body {
 }
 
 #efeites {
-  background: url('//christmas/img/b1.png') no-repeat;
+  background: url('https://github.com/3steplex/christmas/img/b1.png') no-repeat;
   
   min-width: 100%;
   min-height: 100%;
@@ -76,7 +76,7 @@ body {
 }
 
 #efeites1 {
-  background: url('//christmas/img/b3.png') no-repeat;
+  background: url('https://github.com/3steplex/christmas/img/b3.png') no-repeat;
   min-width: 100%;
   min-height: 100%;
   x-index: 2;
@@ -86,7 +86,7 @@ body {
 }
 
 #arvore {
-  background: url('//christmas/img/0.png') no-repeat ;
+  background: url('https://github.com/3steplex/christmas/img/0.png') no-repeat ;
   min-width: 100%;
   min-height: 100%;
   x-index: 2;
@@ -97,7 +97,7 @@ body {
 }
 
 #arvore1 {
-  background: url('//christmas/img/1.png') no-repeat ;
+  background: url('https://github.com/3steplex/christmas/img/1.png') no-repeat ;
   min-width: 100%;
   min-height: 100%;
   x-index: 2;
@@ -108,7 +108,7 @@ body {
 }
 
 #arvore2 {
-  background: url('//christmas/img/2.png') no-repeat ;
+  background: url('https://github.com/3steplex/christmas/img/2.png') no-repeat ;
   min-width: 100%;
   min-height: 100%;
   x-index: 2;
@@ -119,7 +119,7 @@ body {
 }
 
 #arvore3 {
-  background: url('//christmas/img/3.png') no-repeat ;
+  background: url('https://github.com/3steplex/christmas/img/3.png') no-repeat ;
   min-width: 100%;
   min-height: 100%;
   x-index: 2;
@@ -130,7 +130,7 @@ body {
 }
 
 #arvore4 {
-  background: url('//christmas/img/4.png') no-repeat ;
+  background: url('https://github.com/3steplex/christmas/img/4.png') no-repeat ;
   min-width: 100%;
   min-height: 100%;
   x-index: 2;
@@ -143,7 +143,7 @@ body {
 
 
 #arvo {
-  background: url('//christmas/img/0.png') no-repeat;
+  background: url('https://github.com/3steplex/christmas/img/0.png') no-repeat;
   left: 600px;
   top: 10px;
   background-size: 80px 60px;
